@@ -13,3 +13,8 @@ botoes[i].onclick = function(){
     
     botoes[i].classList.add("ativo");
 }
+
+var frutas = ["Maçã", "Banana", "Laranja", "Pera"];
+for (var i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
